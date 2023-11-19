@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Dr.%20Ismail/Desktop/Machine-learning-project-for-wine-quality/mlruns/0/e81d36e0956149fc97ce5be3acc52076/artifacts
+end_time: 1700386705897
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e81d36e0956149fc97ce5be3acc52076
+run_name: adventurous-calf-331
+run_uuid: e81d36e0956149fc97ce5be3acc52076
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700386700769
+status: 3
+tags: []
+user_id: moha

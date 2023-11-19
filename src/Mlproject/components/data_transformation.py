@@ -8,6 +8,12 @@ from mlproject.entity.config_entity import DataTransformationConfig
 
 class DataTransformation:
     def __init__(self, config: DataTransformationConfig):
+        """
+        Initializes the DataTransformation class.
+
+        Args:
+            config (DataTransformationConfig): The configuration object for data transformation.
+        """
         self.config = config
 
     
@@ -18,6 +24,15 @@ class DataTransformation:
 
 
     def train_test_spliting(self):
+        """
+        Splits the data into training and test sets.
+
+        Reads the data from the specified data path, splits it into training and test sets using a 0.75:0.25 split ratio,
+        and saves the split data into separate CSV files.
+
+        Returns:
+            None
+        """
         data = pd.read_csv(self.config.data_path)
 
         # Split the data into training and test sets. (0.75, 0.25) split.
