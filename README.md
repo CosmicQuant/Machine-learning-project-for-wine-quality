@@ -13,3 +13,67 @@
 8. Update the main.py
 9. Update the app.py
 
+# How to run?
+### STEPS:
+
+Clone the repository
+
+```bash
+https://github.com/CosmicQuant/Machine-learning-project-for-wine-quality
+```
+### STEP 01- Create a conda environment after opening the repository
+
+```bash
+conda create -n mlproj python
+```
+
+```bash
+conda activate mlproj
+```
+
+
+### STEP 02- install the requirements
+```bash
+pip install -r requirements.txt
+```
+
+
+```bash
+# Finally run the following command
+python app.py
+```
+
+Now,
+```bash
+open up you local host and port
+```
+
+
+
+## MLflow
+
+[Documentation](https://mlflow.org/docs/latest/index.html)
+
+
+##### cmd
+- mlflow ui
+
+### dagshub
+[dagshub](https://dagshub.com/)
+
+MLFLOW_TRACKING_URI=https://dagshub.com/OceanManDiani/Machine-learning-project-for-wine-quality.mlflow \
+MLFLOW_TRACKING_USERNAME=OceanManDiani \
+MLFLOW_TRACKING_PASSWORD=244396299d25722e433d38d75f4c4b30c6886e56 \
+python script.py
+
+Run this to export as env variables:
+
+```bash
+
+export MLFLOW_TRACKING_URI=https://dagshub.com/OceanManDiani/Machine-learning-project-for-wine-quality.mlflow
+
+export MLFLOW_TRACKING_USERNAME=OceanManDiani
+
+export MLFLOW_TRACKING_PASSWORD=244396299d25722e433d38d75f4c4b30c6886e56
+
+```
